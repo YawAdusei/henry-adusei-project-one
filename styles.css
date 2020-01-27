@@ -1,0 +1,290 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* BASE STYLES */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Cabin';
+    font-size: 1.8rem;
+    color: #000;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:#232323
+}
+
+
+.footer-content, .main-sections, .about  {
+    text-align: center; 
+}
+
+
+.wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+.main-sections {
+    height: 450px;
+}
+
+.footer-content, .main-sections {
+    width: 100%;
+    background-color: #232323;
+    color: #F8F8F8;
+    height: 350px;
+    text-align: center;
+}
+
+.logo, .header-tagline span, .about h2,.meet-the-cook-content h2 {
+    font-family: "Great Vibes";
+}
+
+.menu, .main-sections {
+    text-transform: uppercase;
+}
+
+/* Button Styles */
+
+button {
+    background-color: #FDC800;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+/* HEADER STYLES */
+
+header {
+    background-image: url(tasty-assets/asset-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 4.2rem;
+    display: inline-block;
+}
+
+.header-content {
+    padding: 150px;
+}
+
+.header-tagline {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.tasty-header-tagline {
+    font-family: "Great Vibes";
+    font-size: 10.5rem;
+    text-align: center;
+    margin: 5px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu a {
+    padding: 20px;
+}
+
+/* About Section */
+
+.about {
+    background-color: #EAEDF4;
+    
+}
+
+.about-container {
+    width: 100%;
+    padding: 70px 15%;
+}
+
+
+.gallery-container li {
+    float: left;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: calc((100% - 100px ) / 3); 
+}
+
+
+.main-sections {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.section-container {
+    padding-top: 10%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.recipes-icon, .cooking-icon, .contact-icon {
+    float: left;
+    padding: 20px;
+}
+
+
+/* Cooking Tips Section */
+
+.cooking-tips, .cooking-tips-content, .cooking-tips-image {
+    float: left;
+}
+
+.cooking-tips-content {
+    width: 50%;
+    height: 370px;
+    background-color: #EAEDF4;
+    text-align: center;
+    padding: 90px;
+}
+
+.cooking-tips-content h2 {
+    text-transform: uppercase;
+}
+
+
+.cooking-tips-image {
+     width: 50%;
+}
+
+
+/* Recipe Tips Section */
+
+.recipes, .recipes-content, .recipes-image {
+    float: left;
+}
+
+.recipes-content {
+    width: 50%;
+    height: 370px;
+    background-color: #EAEDF4;
+    text-align: center;
+    padding: 90px;
+    
+}
+
+.recipes-content h2 {
+    text-transform: uppercase;
+}
+
+.recipes-image {
+     width: 50%;
+}
+
+
+/* About the Cook Section */
+
+.meet-the-cook, .cook-image, .meet-the-cook-content {
+    float: left;
+}
+
+.cook-image {
+    width: calc(40% - 40px);
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+
+.meet-the-cook-content {
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+
+
+/* Footer Content */
+
+.footer-content h3 {
+    text-transform: uppercase;
+}
+
+.contact-info, .footer-nav, .recent-posts {
+    margin: 40px;
+    line-height: 2.4rem;
+}
+
+footer a {
+    color: #EAEDF4;
+}
+
+
+
+.footer-content, .contact-info, .footer-nav, .recent-posts {
+    float: left;
+}
+
+.updates {
+    float: left;
+    margin: 40px;
+    width: 15%;
+}
+
+
+@media (max-width: 320px) {
+
+
+    .menu {
+        display: none;
+    }
+    
+    div {
+        width: 35px;
+        height: 5px;
+        color: black;
+        margin: 7px 0;
+        float: right;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+        .menu {
+            display: inline-block;
+            float: right;
+            margin-top: 45px;
+            }
+    
+
+}
+
+
+
